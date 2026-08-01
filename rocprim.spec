@@ -3,7 +3,7 @@
 
 Name:		rocprim
 Version:	7.14.0
-Release:	1
+Release:	2
 Summary:	HIP parallel primitives (header-only)
 License:	MIT
 Group:		Development/C++
@@ -20,7 +20,6 @@ BuildRequires:	clang-tools
 BuildRequires:	rocm-hip-devel
 BuildRequires:	clang >= %{rocm_llvm_maj_ver}
 
-ExclusiveArch:	%{x86_64} %{aarch64}
 
 %description
 rocPRIM provides device-side parallel primitives for HIP. Header-only;
