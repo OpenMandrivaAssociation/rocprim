@@ -1,14 +1,14 @@
-# HIP parallel primitives (header-only) (TheRock 10.1)
+# HIP parallel primitives (header-only) (TheRock 10.2)
 %global debug_package %{nil}
 
 Name:		rocprim
-Version:	10.1.0
+Version:	10.2.0
 Release:	1
 Summary:	HIP parallel primitives (header-only)
 License:	MIT
 Group:		Development/C++
 URL:		https://github.com/ROCm/rocm-libraries
-Source0:	https://github.com/ROCm/rocm-libraries/releases/download/therock-10.1/rocprim.tar.gz#/rocprim-%{version}.tar.gz
+Source0:	https://github.com/ROCm/rocm-libraries/releases/download/therock-10.2/rocprim.tar.gz#/rocprim-%{version}.tar.gz
 
 BuildRequires:	rocm-rpm-macros
 BuildRequires:	cmake
